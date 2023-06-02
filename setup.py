@@ -2,14 +2,14 @@ from distutils.core import setup
 
 setup(
     name="django_iubenda",
-    packages=["django_iubenda"],
-    version="0.1",
+    packages=[""],
+    version="0.0.2",
     license="Iubenda integration for web application",
     description="Iubenda integration for web application",
     author="ShadMod",
     author_email="support@shadmod.it",
     url="https://github.com/shadMod/django_iubenda",
-    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.1.tar.gz",
+    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.2.tar.gz",
     keywords=[
         "WebPwn3r",
     ],
