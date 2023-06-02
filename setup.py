@@ -2,17 +2,16 @@ from distutils.core import setup
 
 setup(
     name="django-iubenda-web",
-    version="0.0.7",
+    version="0.0.8",
     license="Iubenda integration for web application",
     description="Iubenda integration for web application",
     author="ShadMod",
     author_email="support@shadmod.it",
     url="https://github.com/shadMod/django_iubenda",
-    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.7.tar.gz",
+    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.8.tar.gz",
     packages=[
         "django_iubenda",
         "django_iubenda.core",
-        "django_iubenda.templates",
         "django_iubenda.tests",
     ],
     keywords=[
