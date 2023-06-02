@@ -1,1 +1,1 @@
-# django_iubenda
+An amatorial integration to view iubenda pop-up

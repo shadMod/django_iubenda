@@ -3,15 +3,15 @@ from distutils.core import setup
 setup(
     name="django-iubenda-web",
     packages=["django_iubenda"],
-    version="0.0.2",
+    version="0.0.3",
     license="Iubenda integration for web application",
     description="Iubenda integration for web application",
     author="ShadMod",
     author_email="support@shadmod.it",
     url="https://github.com/shadMod/django_iubenda",
-    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.2.tar.gz",
+    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.3.tar.gz",
     keywords=[
-        "WebPwn3r",
+        "Django iubenda",
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
