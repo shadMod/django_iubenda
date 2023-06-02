@@ -1,15 +1,15 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name="django-iubenda-web",
-    packages=["django_iubenda"],
-    version="0.0.5",
+    packages=find_packages(include=("django_iubenda", "django_iubenda.*")),
+    version="0.0.6",
     license="Iubenda integration for web application",
     description="Iubenda integration for web application",
     author="ShadMod",
     author_email="support@shadmod.it",
     url="https://github.com/shadMod/django_iubenda",
-    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.5.tar.gz",
+    download_url="https://github.com/shadMod/django_iubenda/archive/refs/tags/0.0.6.tar.gz",
     keywords=[
         "Django iubenda",
     ],
