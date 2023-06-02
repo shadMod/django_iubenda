@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="django_iubenda",
-    packages=[""],
+    name="django-iubenda-web",
+    packages=["django_iubenda"],
     version="0.0.2",
     license="Iubenda integration for web application",
     description="Iubenda integration for web application",
